@@ -21,5 +21,5 @@ for (let i = 0; i < dayNames.length; i++) {
   const day = dayNames[i];
   const tempF = tempsF[i];
   const tempC = convertFtoC(tempF).toFixed(1);
-  console.log(`${day} it will be ${tempC} degrees Celsius`);
+  console.log(`${day}: ${tempC} degrees Celsius`);
 }
