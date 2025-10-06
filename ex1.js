@@ -11,8 +11,8 @@ const student = {
 
 // write code here
 student.name = "Yulong Wu";
-student.age = 25;
-student.isFullTime = false;
+student.age = 21;
+student.isFullTime = true;
 console.log(student);
 
 
