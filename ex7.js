@@ -11,14 +11,16 @@ function power(base, exponent) {
   }
 
   // your code here!
-}
-  let result = 1;
-  for (let i = 0; i < exponent; i++) {
-    result *= base;
+  let output = base;
+  for (let i = 1; i < exponent; i++) {
+    output *= base;
   }
-  return result;
+  return output;
+}
+console.log(power(2, 3)); 
+console.log(power(3, 4)); 
+console.log(power(5, 6)); 
 
-console.log("let's run some tests");
 
 function test(base, exponent) {
   if (power(base, exponent) !== base ** exponent) {
