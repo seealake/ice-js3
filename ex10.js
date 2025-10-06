@@ -33,5 +33,4 @@ const uniqueCount = Object.keys(occurrences).length;
 console.log("average:", average);
 console.log("median:", median);
 console.log("number of unique values:", uniqueCount);
-console.log("occurrences of each unique value:", occurrences);
 
