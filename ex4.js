@@ -5,12 +5,10 @@ const grades = ["A", "A", "AB", "C", "B"];
    AB
    ["A", "B", "C"]
 */
-
 // write code here!
-
+grades.push("A");
+grades.sort();
 grades.splice(1, 2);
-grades.splice(2, 1);
-grades.push("B");
 // Don't edit the below code
 const last = grades.pop();
 console.log(last); // should print AB
