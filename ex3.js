@@ -12,7 +12,7 @@ const key = "isFullTime";
 */
 
 // write code here
-
+student[key] = false;
 console.log(student.isFullTime);
 
 /* save the file and execute in terminal with:

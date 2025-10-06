@@ -12,3 +12,26 @@ const data = [
   7, 93, 90, 29, 18, 53, 48, 61, 50, 10, 92, 87, 54, 39, 66, 91, 49, 46, 36, 6,
   12, 97, 74, 93, 57, 12, 52, 58, 25, 78, 98, 26, 69, 100, 81, 3, 76, 67,
 ];
+data.sort((a, b) => a - b);
+let sum = 0;
+const occurrences = {};
+for (let i = 0; i < data.length; i++) {
+  const num = data[i];
+  sum += num;
+  if (occurrences[num]) {
+    occurrences[num]++;
+  } else {
+    occurrences[num] = 1;
+  }
+}
+const average = sum / data.length;
+const median =
+  data.length % 2 === 0
+    ? (data[data.length / 2 - 1] + data[data.length / 2]) / 2
+    : data[Math.floor(data.length / 2)];
+const uniqueCount = Object.keys(occurrences).length;
+console.log("average:", average);
+console.log("median:", median);
+console.log("number of unique values:", uniqueCount);
+console.log("occurrences of each unique value:", occurrences);
+

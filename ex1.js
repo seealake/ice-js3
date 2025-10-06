@@ -10,8 +10,11 @@ const student = {
 */
 
 // write code here
-
+student.name = "Yulong Wu";
+student.age = 25;
+student.isFullTime = false;
 console.log(student);
+
 
 /* save the file and execute in terminal with:
    node ex1.js

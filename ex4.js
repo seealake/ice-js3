@@ -8,6 +8,9 @@ const grades = ["A", "A", "AB", "C", "B"];
 
 // write code here!
 
+grades.splice(1, 2);
+grades.splice(2, 1);
+grades.push("B");
 // Don't edit the below code
 const last = grades.pop();
 console.log(last); // should print AB
