@@ -4,7 +4,7 @@ const student = {
   isFullTime: true,
 };
 
-const newStudent = {};
+const anotherBucky = {};
 
 /* WITHOUT EDITING, COPYING, or PASTING the above code,
    change the data so that the final console.log prints Bucky's information
@@ -12,7 +12,7 @@ const newStudent = {};
 
 // write code here
 
-console.log(newStudent);
+console.log(anotherBucky);
 
 /* save the file and execute in terminal with:
    node ex2.js
