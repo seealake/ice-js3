@@ -1,14 +1,6 @@
-const fruitBasket = [
-  "banana",
-  "apple",
-  "apple",
-  "apple",
-  "pineapple",
-  "orange",
-  "orange",
-];
-let output;
+function rollDie() {
+  return Math.ceil(Math.random() * 6);
+}
 
-// your code here
-
-console.log(output);
+// write a while loop that rolls the die until a 6 is rolled!
+// use console.log to print the roll in every iteration
