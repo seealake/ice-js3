@@ -12,9 +12,9 @@ const anotherBucky = {};
 
 // write code here
 
-anotherBucky.name = "Bucky Badger";
-anotherBucky.age = 21;
-anotherBucky.isFullTime = true;
+anotherBucky.name = student.name;
+anotherBucky.age = student.age;
+anotherBucky.isFullTime = student.isFullTime;
 console.log(anotherBucky);
 
 /* save the file and execute in terminal with:
